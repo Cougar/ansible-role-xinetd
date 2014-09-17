@@ -1,0 +1,9 @@
+---
+- name: "Debian | set_fact xinetd_supported_os: True"
+  set_fact:
+    xinetd_supported_os: True
+
+- name: Debian | install packages
+  apt:
+    pkg: xinetd
+    state: installed

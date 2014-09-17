@@ -1,0 +1,9 @@
+---
+- name: "RedHat | set_fact xinetd_supported_os: True"
+  set_fact:
+    xinetd_supported_os: True
+
+- name: RedHat | install packages
+  yum:
+    pkg: xinetd
+    state: installed

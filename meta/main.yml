@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Cougar
+  description: A basic xinetd role.
+  company: version6.net
+  license: BSD
+  min_ansible_version: 1.2
+  platforms:
+  - name: opensuse
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  categories:
+  - networking
+  - system
+dependencies: []
